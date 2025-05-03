@@ -6,7 +6,7 @@ from collections import deque
 # Initialize
 pygame.init()
 W, H, C = 20, 15, 40  # Larger cells for better graphics
-FPS = 10
+FPS = 8
 scr = pygame.display.set_mode((W*C, H*C+100))
 pygame.display.set_caption("Garden Snake Game")
 clock = pygame.time.Clock()
