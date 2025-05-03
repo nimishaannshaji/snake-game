@@ -1,22 +1,35 @@
-# Snake Game 🐍🌿
+# Snake Game
 
-A visually enhanced Snake game with auto mode, animated graphics, and AI-based pathfinding, built using **Pygame**.
+This is a fun and simple snake game built using Python and the Pygame library. The game features a snake that you can control to collect apples while avoiding walls. You can also toggle automatic movement for the snake using AI pathfinding.
 
-## 🎮 Features
+## Features:
+- Manual and automatic modes
+- Animated snake with pulsating effects
+- Custom graphics for the snake, apple, and grass tiles
+- UI displaying score, mode, and controls
 
-- Smooth snake animations with dynamic eyes 👀
-- Auto mode using **BFS pathfinding** to reach apples 🧠
-- Procedural grass and rock textures 🌾
-- Fun UI with score display
-- Toggle between **manual** and **auto** modes
-- Game over overlay with restart option
+## How to Play:
+- Use arrow keys (Up, Down, Left, Right) to move the snake manually.
+- Press **Space** to toggle the auto mode (AI-controlled snake).
+- Press **Enter** to restart the game after it’s over.
+- Press **Esc** to stop the auto mode.
 
-## 🛠️ Requirements
-
-- Python 3.7+
+## Requirements:
+- Python 3.x
 - Pygame
 
-Install dependencies:
+## Installation:
 
-```bash
-pip install pygame
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/snake-game.git
+   cd snake-game
+   
+2. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the game:
+   ```bash
+   python game.py
+
